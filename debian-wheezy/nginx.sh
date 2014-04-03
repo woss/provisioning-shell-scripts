@@ -3,5 +3,5 @@ wget http://nginx.org/keys/nginx_signing.key
 apt-key add nginx_signing.key
 apt-get update
 apt-get remove nginx-*
-apt-get install nginx
+apt-get install -y -q nginx
 /etc/init.d/nginx restart
